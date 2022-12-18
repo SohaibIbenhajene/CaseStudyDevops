@@ -1,6 +1,6 @@
 ﻿namespace Devops_CaseStudy_Sohaib
 {
-    partial class Form2
+    partial class Start
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Start));
             this.panelOuter = new System.Windows.Forms.Panel();
             this.btnHard = new System.Windows.Forms.Button();
             this.btnMedium = new System.Windows.Forms.Button();

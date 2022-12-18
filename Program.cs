@@ -22,7 +22,7 @@ namespace Devops_CaseStudy_Sohaib
             conn = CreateConnection();
             CreateTable(conn);
             conn.Close();
-            Application.Run(new Form2());
+            Application.Run(new Start());
         }
 
         public static SQLiteConnection CreateConnection()

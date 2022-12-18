@@ -1,6 +1,6 @@
 ﻿namespace Devops_CaseStudy_Sohaib
 {
-    partial class Form1
+    partial class Game
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
             this.panelOuter = new System.Windows.Forms.Panel();
             this.lblLevel = new System.Windows.Forms.Label();
             this.lblLives = new System.Windows.Forms.Label();

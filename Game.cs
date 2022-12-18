@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace Devops_CaseStudy_Sohaib
 {
-    public partial class Form1 : Form
+    public partial class Game : Form
     {
         Point startLocation;
         int countDown;
@@ -20,7 +20,7 @@ namespace Devops_CaseStudy_Sohaib
         string player;
         string difficultyLevel;
 
-        public Form1(int startlives, string username, string level)
+        public Game(int startlives, string username, string level)
         {
             InitializeComponent();
             lives = startlives;

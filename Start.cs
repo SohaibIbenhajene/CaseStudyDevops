@@ -11,13 +11,13 @@ using System.Windows.Forms;
 
 namespace Devops_CaseStudy_Sohaib
 {
-    public partial class Form2 : Form
+    public partial class Start : Form
     {
         Difficulty difficultyEasy = new Easy();
         Difficulty difficultyMedium = new Medium();
         Difficulty difficultyHard = new Hard();
 
-        public Form2()
+        public Start()
         {
             InitializeComponent();
         }
@@ -34,9 +34,7 @@ namespace Devops_CaseStudy_Sohaib
         {
             if (txtUserName.Text != "")
             {
-                Form1 f1 = new Form1(difficultyEasy.lives, txtUserName.Text, difficultyEasy.level);
-                //f1.UserName = txtUserName.Text;
-                //f1.LevelName = difficultyEasy.level;
+                Game f1 = new Game(difficultyEasy.lives, txtUserName.Text, difficultyEasy.level);
                 f1.Show();
                 this.Hide();
             }
@@ -50,9 +48,7 @@ namespace Devops_CaseStudy_Sohaib
         {
             if (txtUserName.Text != "")
             {
-                Form1 f1 = new Form1(difficultyMedium.lives, txtUserName.Text, difficultyMedium.level);
-                //f1.UserName = txtUserName.Text;
-                //f1.LevelName = difficultyMedium.level;
+                Game f1 = new Game(difficultyMedium.lives, txtUserName.Text, difficultyMedium.level);
                 f1.Show();
                 this.Hide();
             }
@@ -66,9 +62,7 @@ namespace Devops_CaseStudy_Sohaib
         {
             if (txtUserName.Text != "")
             {
-                Form1 f1 = new Form1(difficultyHard.lives, txtUserName.Text, difficultyHard.level);
-                //f1.UserName = txtUserName.Text;
-                //f1.LevelName = difficultyHard.level;
+                Game f1 = new Game(difficultyHard.lives, txtUserName.Text, difficultyHard.level);
                 f1.Show();
                 this.Hide();
             }
