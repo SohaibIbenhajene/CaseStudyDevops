@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CaseStudy;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,20 +17,15 @@ namespace Devops_CaseStudy_Sohaib
         Point startLocation;
         int countDown;
         int lives;
+        string player;
+        string difficultyLevel;
 
-        public string UserName
-        {
-            set { lblUserName.Text = "Player: " + value.Trim(); }
-        }
-        public string LevelName
-        {
-            set { lblLevel.Text = "Level: " + value.Trim(); }
-        }
-
-        public Form1(int startlives)
+        public Form1(int startlives, string username, string level)
         {
             InitializeComponent();
             lives = startlives;
+            difficultyLevel = level;
+            player = username;
             InitializeGame();
         }
 
@@ -41,6 +37,8 @@ namespace Devops_CaseStudy_Sohaib
             countDown = 0;
             lblTimer.Text = "Time: " + countDown.ToString();
             lblLives.Text = "Lives: " + lives.ToString();
+            lblUserName.Text = "Player: " + player.Trim();
+            lblLevel.Text = "Level: " + difficultyLevel.Trim();
             countDown++;
         }
 
@@ -68,7 +66,9 @@ namespace Devops_CaseStudy_Sohaib
         {
             GameTimer.Stop();
             MessageBox.Show("You win!", "Game Won");
-            Application.Exit();
+            Result result = new Result(player, difficultyLevel, countDown);
+            result.Show();
+            this.Hide();
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)

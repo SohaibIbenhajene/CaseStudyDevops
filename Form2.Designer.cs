@@ -97,7 +97,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(413, 761);
+            this.label3.Location = new System.Drawing.Point(412, 761);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(185, 27);
             this.label3.TabIndex = 6;
@@ -108,11 +108,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Myanmar Text", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(264, 679);
+            this.label1.Location = new System.Drawing.Point(287, 678);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(447, 66);
+            this.label1.Size = new System.Drawing.Size(424, 66);
             this.label1.TabIndex = 5;
-            this.label1.Text = "PRESS ENTER TO START";
+            this.label1.Text = "CHOOSE A DIFFICULTY";
             // 
             // txtUserName
             // 
@@ -141,7 +141,7 @@
             this.Title.AutoSize = true;
             this.Title.Font = new System.Drawing.Font("Myanmar Text", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Title.ForeColor = System.Drawing.Color.Black;
-            this.Title.Location = new System.Drawing.Point(271, 122);
+            this.Title.Location = new System.Drawing.Point(287, 121);
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(421, 142);
             this.Title.TabIndex = 1;

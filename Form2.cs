@@ -34,9 +34,9 @@ namespace Devops_CaseStudy_Sohaib
         {
             if (txtUserName.Text != "")
             {
-                Form1 f1 = new Form1(difficultyEasy.lives);
-                f1.UserName = txtUserName.Text;
-                f1.LevelName = difficultyEasy.level;
+                Form1 f1 = new Form1(difficultyEasy.lives, txtUserName.Text, difficultyEasy.level);
+                //f1.UserName = txtUserName.Text;
+                //f1.LevelName = difficultyEasy.level;
                 f1.Show();
                 this.Hide();
             }
@@ -50,9 +50,9 @@ namespace Devops_CaseStudy_Sohaib
         {
             if (txtUserName.Text != "")
             {
-                Form1 f1 = new Form1(difficultyMedium.lives);
-                f1.UserName = txtUserName.Text;
-                f1.LevelName = difficultyMedium.level;
+                Form1 f1 = new Form1(difficultyMedium.lives, txtUserName.Text, difficultyMedium.level);
+                //f1.UserName = txtUserName.Text;
+                //f1.LevelName = difficultyMedium.level;
                 f1.Show();
                 this.Hide();
             }
@@ -66,9 +66,9 @@ namespace Devops_CaseStudy_Sohaib
         {
             if (txtUserName.Text != "")
             {
-                Form1 f1 = new Form1(difficultyHard.lives);
-                f1.UserName = txtUserName.Text;
-                f1.LevelName = difficultyHard.level;
+                Form1 f1 = new Form1(difficultyHard.lives, txtUserName.Text, difficultyHard.level);
+                //f1.UserName = txtUserName.Text;
+                //f1.LevelName = difficultyHard.level;
                 f1.Show();
                 this.Hide();
             }
