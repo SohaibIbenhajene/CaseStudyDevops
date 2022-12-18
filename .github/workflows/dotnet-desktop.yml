@@ -22,12 +22,10 @@ jobs:
         dotnet-version: 7.0.x
     
     - name: Publish
-      run: |
-        dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
-        mv D:\a\CaseStudyDevops\CaseStudyDevops\bin\Release\net7.0-windows\win-x64\publish\CaseStudy.exe D:\a\CaseStudyDevops\CaseStudyDevops\bin\Release\net7.0-windows\win-x64\publish\MazeGame.exe
+      run: dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
 
     - name: Upload MazeGame Build Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: MazeGame.exe
-        path: D:\a\CaseStudyDevops\CaseStudyDevops\bin\Release\net7.0-windows\win-x64\publish\MazeGame.exe
+        name: MazeGame
+        path: D:\a\CaseStudyDevops\CaseStudyDevops\bin\Release\net7.0-windows\win-x64\publish\
