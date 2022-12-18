@@ -27,5 +27,5 @@ jobs:
     - name: Upload MazeGame Build Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: MazeGame.exe
+        name: MazeGame
         path: D:\a\CaseStudyDevops\CaseStudyDevops\bin\Release\net7.0-windows\win-x64\publish\
