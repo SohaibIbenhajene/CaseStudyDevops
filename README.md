@@ -1,6 +1,4 @@
 # Devops &amp; Security Case Study: Maze Game
-In this repository, you will find my Case Study for Devops &amp; Security.
-
 For the Case Study, I could choose between 3 different cases, a Windows Forms/ WPF App, 
 a Webscraper or an ASP.NET web app. I chose a Windows Forms application with a SQLite 
 Database. In the end, I chose to create a Maze Game. It's a small 2d game, where you have
