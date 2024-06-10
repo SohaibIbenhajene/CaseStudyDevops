@@ -8,7 +8,7 @@ For this case study, I had the option to choose between three different projects
 
 The Maze Game is a small 2D game where players navigate a challenging maze using their cursor. The game tracks the player's time, and with a limited number of lives, the objective is to complete the maze as quickly as possible to earn a high score on the leaderboard.
 
-You can play the game [here](#).
+You can play the game [here](https://github.com/SohaibIbenhajene/CaseStudyDevops/actions/runs/9456433929/artifacts/1587429423).
 
 ## Game Rules
 
