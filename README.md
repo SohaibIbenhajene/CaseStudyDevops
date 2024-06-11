@@ -8,7 +8,7 @@ For this case study, I had the option to choose between three different projects
 
 The Maze Game is a small 2D game where players navigate a challenging maze using their cursor. The game tracks the player's time, and with a limited number of lives, the objective is to complete the maze as quickly as possible to earn a high score on the leaderboard.
 
-You can play the game [here](https://github.com/SohaibIbenhajene/CaseStudyDevops/actions/runs/9456433929/artifacts/1587429423).
+You can play the game [here](https://drive.google.com/file/d/1jtUK3p51VD5Tz_Nv5zxVxwgA1GurQ3_S/view?usp=sharing).
 
 ## Game Rules
 
@@ -39,16 +39,20 @@ The Maze Game is straightforward and engaging:
 
 To run the Maze Game on your local machine:
 
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/SohaibIbenhajene/CaseStudyDevops.git
-   ```
-2. Open the project in your preferred IDE.
+1. Download the latest version of the game from this [link](https://drive.google.com/file/d/1jtUK3p51VD5Tz_Nv5zxVxwgA1GurQ3_S/view?usp=sharing).
+   
+2. Unzip the downloaded file.
 
-3. Build and run the application.
+3. Run the `exe` file as an administrator.
+
+4. Enjoy playing the game!
 
 ## Technologies Used
 
 - **C#**: The primary programming language used for development.
 - **Windows Forms**: For creating the user interface.
 - **SQLite**: To handle the database operations.
+
+---
+
+Enjoy navigating the maze and strive for the top spot on the leaderboard!
